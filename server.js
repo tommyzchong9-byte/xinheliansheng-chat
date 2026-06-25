@@ -12,7 +12,7 @@ const io = new Server(server, {
   maxHttpBufferSize: 5e6 // 5MB for images
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Ensure uploads directory exists
 const uploadsDir = path.join(__dirname, 'public', 'uploads');
